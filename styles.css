@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+th {
+    background-color: gray;
+}
+
+td {
+    border: 0.5px solid black;
+}
+
+td:nth-child(even) {
+    background-color: beige;
+}
